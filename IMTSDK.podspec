@@ -18,25 +18,25 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+TODO: 全流量SDK-iOS客户端接入渠道.
                        DESC
 
-  s.homepage         = 'https://github.com/huayingcong/IMTSDK'
+  s.homepage         = 'https://github.com/iResearch-SDK/IMTSDK.git'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'huayingcong' => 'irsenterprise@iresearch.com.cn' }
-  s.source           = { :git => 'https://github.com/huayingcong/IMTSDK.git', :tag => s.version.to_s }
+  s.author           = { 'iresearch' => 'irsenterprise@iresearch.com.cn' }
+  s.source           = { :git => 'https://github.com/iResearch-SDK/IMTSDK.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '9.0'
+  s.ios.deployment_target = '8.0'
 
-  s.source_files = 'IMTSDK/Classes/**/*'
+  # s.source_files = 'IMTSDK/Classes/IMTSDK.framework'
   
   # s.resource_bundles = {
   #   'IMTSDK' => ['IMTSDK/Assets/*.png']
   # }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
+   s.vendored_frameworks = ['IMTSDK/Classes/IMTSDK.framework']
   # s.dependency 'AFNetworking', '~> 2.3'
 end
