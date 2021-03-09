@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '9.0'
+
+target 'IMTSDK_Example' do
+  pod 'IMTSDK', :path => '../'
+
+  target 'IMTSDK_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
