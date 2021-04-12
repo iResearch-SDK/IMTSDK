@@ -8,8 +8,8 @@
 
 Pod::Spec.new do |s|
   s.name             = 'IMTSDK'
-  s.version          = '0.1.4'
-  s.summary          = '全流量SDK of IMTSDK.'
+  s.version          = '1.0.7.1.2'
+  s.summary          = 'IMTSDK of 艾瑞集团全流量'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+TODO: 艾瑞集团全流量SDK- iOS客户端静态库文件.
                        DESC
 
   s.homepage         = 'https://github.com/iResearch-SDK/IMTSDK'
