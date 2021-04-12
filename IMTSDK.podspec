@@ -8,8 +8,8 @@
 
 Pod::Spec.new do |s|
   s.name             = 'IMTSDK'
-  s.version          = '0.1.0'
-  s.summary          = 'A short description of IMTSDK.'
+  s.version          = '0.1.4'
+  s.summary          = '全流量SDK of IMTSDK.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?

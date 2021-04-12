@@ -4,13 +4,14 @@
 //
 //  Created by Aiken on 2019/10/23.
 //  Copyright © 2019 Aiken. All rights reserved.
-//
+//  1.0.7.1.2
 
 #import <Foundation/Foundation.h>
 #import <UIKit/UIKit.h>
 
 NS_ASSUME_NONNULL_BEGIN
 // Hvt实时发送数据等级
+
 typedef NS_OPTIONS(NSUInteger, ReceiveBitHvtType) {
     ReceiveBitHvtTypeStart           = 1 << 0, //0001  = 1 开始
     ReceiveBitHvtTypeHeartbeat       = 1 << 1, //0010  = 2 心跳
@@ -60,5 +61,7 @@ typedef NS_OPTIONS(NSUInteger, ReceiveBitHvtType) {
 - (void)agreeToPrivacyAgreement:(BOOL)isAgree;
 /** 返回隐私协议地址  **/
 - (NSString *)getPrivacyAgreementURL;
+/** 获取当前SDK的版本编号 **/
+- (NSString *)getIMTSDKVersionNumber;
 @end
 NS_ASSUME_NONNULL_END

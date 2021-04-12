@@ -7,6 +7,7 @@
 //
 
 #import "IMTViewController.h"
+#import <IMTSDK/IMTSDK.h>
 
 @interface IMTViewController ()
 
@@ -18,6 +19,9 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    [[IMTSDK shareManager] setUAId:@"UA-text26002"];
+    [[IMTSDK shareManager] setChannelId:@"ceshi"];
+    NSString * version = [[IMTSDK shareManager] getIMTSDKVersionNumber];
 }
 
 - (void)didReceiveMemoryWarning
