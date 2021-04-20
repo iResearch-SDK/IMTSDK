@@ -28,7 +28,7 @@ TODO: 艾瑞集团全流量SDK- iOS客户端静态库文件.
   s.source           = { :git => 'https://github.com/iResearch-SDK/IMTSDK.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '9.0'
+  s.ios.deployment_target = '8.0'
 
   #s.source_files = 'IMTSDK/Classes/**/*'
   
